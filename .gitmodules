@@ -1,0 +1,3 @@
+[submodule "fluent-rs"]
+	path = fluent-rs
+	url = git@github.com:projectfluent/fluent-rs.git
