@@ -1,0 +1,18 @@
+[package]
+name = "fluent-unity"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fluent = "0.10.2"
+
+[dependencies.unic-langid]
+version = "0.8.0"
+features = ["macros"]
+
+[lib]
+name = "fluent_unity"
+crate-type = ["dylib"]
